@@ -12,107 +12,107 @@
 <context>
     <name>LXQtTaskButton</name>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="677"/>
+        <location filename="../lxqttaskbutton.cpp" line="673"/>
         <source>Application</source>
         <translation>Sovellus</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="711"/>
+        <location filename="../lxqttaskbutton.cpp" line="707"/>
         <source>To &amp;Desktop</source>
         <translation>Työ&amp;pöydälle</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="713"/>
+        <location filename="../lxqttaskbutton.cpp" line="709"/>
         <source>&amp;All Desktops</source>
         <translation>&amp;Kaikille työpöydille</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="721"/>
+        <location filename="../lxqttaskbutton.cpp" line="717"/>
         <source>Desktop &amp;%1</source>
         <translation>Työpöytä &amp;%1</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="728"/>
+        <location filename="../lxqttaskbutton.cpp" line="724"/>
         <source>&amp;To Current Desktop</source>
         <translation>&amp;Nykyiselle työpöydälle</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="737"/>
+        <location filename="../lxqttaskbutton.cpp" line="733"/>
         <source>Move To &amp;Next Monitor</source>
         <translation>Siirrä &amp;seuraavalle näytölle</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="740"/>
+        <location filename="../lxqttaskbutton.cpp" line="736"/>
         <source>Move To &amp;Previous Monitor</source>
         <translation>Siirrä &amp;edelliselle näytölle</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="744"/>
+        <location filename="../lxqttaskbutton.cpp" line="740"/>
         <source>&amp;Move</source>
         <translation>&amp;Siirrä</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="747"/>
+        <location filename="../lxqttaskbutton.cpp" line="743"/>
         <source>Resi&amp;ze</source>
         <translation>Muuta kokoa</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="754"/>
+        <location filename="../lxqttaskbutton.cpp" line="750"/>
         <source>Ma&amp;ximize</source>
         <translation>Suu&amp;renna</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="761"/>
+        <location filename="../lxqttaskbutton.cpp" line="757"/>
         <source>Maximize vertically</source>
         <translation>Suurenna pystysuunnassa</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="766"/>
+        <location filename="../lxqttaskbutton.cpp" line="762"/>
         <source>Maximize horizontally</source>
         <translation>Suurenna vaakasuunnassa</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="772"/>
+        <location filename="../lxqttaskbutton.cpp" line="768"/>
         <source>&amp;Restore</source>
         <translation>&amp;Palauta</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="776"/>
+        <location filename="../lxqttaskbutton.cpp" line="772"/>
         <source>Mi&amp;nimize</source>
         <translation>Pie&amp;nennä</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="782"/>
+        <location filename="../lxqttaskbutton.cpp" line="778"/>
         <source>Roll down</source>
         <translation>Rullaa alas</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="788"/>
+        <location filename="../lxqttaskbutton.cpp" line="784"/>
         <source>Roll up</source>
         <translation>Rullaa ylös</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="796"/>
+        <location filename="../lxqttaskbutton.cpp" line="792"/>
         <source>&amp;Layer</source>
         <translation>Tas&amp;o</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="798"/>
+        <location filename="../lxqttaskbutton.cpp" line="794"/>
         <source>Always on &amp;top</source>
         <translation>Aina &amp;ylimpänä</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="804"/>
+        <location filename="../lxqttaskbutton.cpp" line="800"/>
         <source>&amp;Normal</source>
         <translation>&amp;Tavallinen</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="810"/>
+        <location filename="../lxqttaskbutton.cpp" line="806"/>
         <source>Always on &amp;bottom</source>
         <translation>Aina &amp;alimpana</translation>
     </message>
     <message>
-        <location filename="../lxqttaskbutton.cpp" line="818"/>
+        <location filename="../lxqttaskbutton.cpp" line="814"/>
         <source>&amp;Close</source>
         <translation>&amp;Sulje</translation>
     </message>
@@ -135,7 +135,7 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="14"/>
         <source>Task Manager Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Tehtävienhallinnan Asetukset</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="20"/>
@@ -160,7 +160,7 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="69"/>
         <source>Raise minimized windows on current desktop</source>
-        <translation type="unfinished"></translation>
+        <translation>Nosta minimoidut ikkunat tämänhetkisellä työpöydällä</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="49"/>
@@ -170,12 +170,12 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="143"/>
         <source>Window &amp;grouping</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikkunoiden &amp;ryhmittäminen</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="152"/>
         <source>Show popup on mouse hover</source>
-        <translation type="unfinished"></translation>
+        <translation>Näytä ponnahdusviesti osoittimen kohdalla</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="169"/>
@@ -192,22 +192,22 @@
         <location filename="../lxqttaskbarconfiguration.ui" line="201"/>
         <location filename="../lxqttaskbarconfiguration.ui" line="227"/>
         <source> px</source>
-        <translation type="unfinished"></translation>
+        <translation> px</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="86"/>
         <source>Mouse Wheel</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiiren Rulla</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="112"/>
         <source>Wheel Delta Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Rullan Delta Kynnysarvo</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="162"/>
         <source>Put buttons of the same class next to each other</source>
-        <translation type="unfinished"></translation>
+        <translation>Asettele saman tyyppiset painikkeet vierekkäin</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="214"/>
@@ -217,12 +217,12 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="247"/>
         <source>Use icons by WindowClass, if available</source>
-        <translation type="unfinished"></translation>
+        <translation>Käytä ikkunaluokan mukaisia kuvakkeita jos mahdollista</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="240"/>
         <source>Auto&amp;rotate buttons when the panel is vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Käännä painikkeet automaattisesti paneelin ollessa pystysuorassa</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.ui" line="178"/>
@@ -252,27 +252,27 @@
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="48"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Poistettu käytöstä</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="50"/>
         <source>Scroll up to raise, down to minimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Vieritä ylös nostamiseksi tai alas minimoidaksi</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="51"/>
         <source>Scroll up to minimize, down to raise</source>
-        <translation type="unfinished"></translation>
+        <translation>Vieritä ylös minimoidaksi tai alas nostamiseksi</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="52"/>
         <source>Scroll up to move to next desktop, down to previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Ylös vierittäminen vie seuraavalle työpöydälle ja alas vierittäminen vie edelliselle</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="53"/>
         <source>Scroll up to move to previous desktop, down to next</source>
-        <translation type="unfinished"></translation>
+        <translation>Ylös vierittäminen vie edelliselle työpöydälle ja alas vierittäminen vie seuraavalle</translation>
     </message>
     <message>
         <location filename="../lxqttaskbarconfiguration.cpp" line="55"/>

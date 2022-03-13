@@ -55,12 +55,12 @@
     <message>
         <location filename="../src/kbdstateconfig.ui" line="14"/>
         <source>Keyboard state settings</source>
-        <translation>Nastavení stavu klávesnice</translation>
+        <translation>Nastavení pro stav klávesnice</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="20"/>
         <source>Lock Indicators</source>
-        <translation>Indikovat zámky</translation>
+        <translation>Kontrolky zámků</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="26"/>
@@ -85,17 +85,17 @@
     <message>
         <location filename="../src/kbdstateconfig.ui" line="62"/>
         <source>Switching policy</source>
-        <translation>Pravidlo pro přepínání</translation>
+        <translation>Dosah přepínání</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="99"/>
         <source>Flags path pattern:</source>
-        <translation>Vzor cesty k vlajce:</translation>
+        <translation>Vzor popisu umístění vlajek:</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="106"/>
         <source>File path pattern for country flags. Must contain &lt;strong&gt;%1&lt;/strong&gt; which is replaced by the two letter ISO country code (lower case).&lt;br&gt;&lt;br&gt;Example: /usr/share/iso-flags-svg/country-squared/%1.svg</source>
-        <translation>Vzor souborové cesty pro vlajky zemí. Musí obsahovat &lt;strong&gt;%1&lt;/strong&gt;, což je nahrazeno dvěma písmeny ISO kódu země (malá písmena).&lt;br&gt;&lt;br&gt;Příklad: /usr/share/iso-flags-svg/country-squared/%1.svg</translation>
+        <translation>Vzor popisu umístění vlajek zemí. Je třeba, aby obsahoval &lt;strong&gt;%1&lt;/strong&gt;, což je nahrazeno dvěma písmeny ISO kódu země (malá písmena).&lt;br&gt;&lt;br&gt;Příklad: /usr/share/iso-flags-svg/country-squared/%1.svg</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="116"/>
@@ -105,17 +105,17 @@
     <message>
         <location filename="../src/kbdstateconfig.ui" line="69"/>
         <source>Global</source>
-        <translation>Celkově</translation>
+        <translation>Pro všechno</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="79"/>
         <source>Window</source>
-        <translation>Okno</translation>
+        <translation>Pro stávající okno</translation>
     </message>
     <message>
         <location filename="../src/kbdstateconfig.ui" line="89"/>
         <source>Application</source>
-        <translation>Aplikace</translation>
+        <translation>Pro stávající aplikaci</translation>
     </message>
 </context>
 </TS>

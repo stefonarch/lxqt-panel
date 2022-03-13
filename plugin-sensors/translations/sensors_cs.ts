@@ -16,12 +16,12 @@
     <message>
         <location filename="../lxqtsensorsconfiguration.ui" line="42"/>
         <source>Update interval (seconds)</source>
-        <translation>Interval obnovování (v sekundách)</translation>
+        <translation>Interval aktualizace stavu (v sekundách)</translation>
     </message>
     <message>
         <location filename="../lxqtsensorsconfiguration.ui" line="49"/>
         <source>Temperature bar width</source>
-        <translation>Šíře pruhu s teplotou</translation>
+        <translation>Šířka pruhu s teplotou</translation>
     </message>
     <message>
         <location filename="../lxqtsensorsconfiguration.ui" line="104"/>
@@ -61,7 +61,7 @@
     <message>
         <location filename="../lxqtsensorsconfiguration.ui" line="175"/>
         <source>Chip features:</source>
-        <translation>Funkce čipů:</translation>
+        <translation>Funkce čipu:</translation>
     </message>
     <message>
         <location filename="../lxqtsensorsconfiguration.cpp" line="195"/>

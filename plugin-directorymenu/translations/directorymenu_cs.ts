@@ -4,12 +4,12 @@
 <context>
     <name>DirectoryMenu</name>
     <message>
-        <location filename="../directorymenu.cpp" line="125"/>
+        <location filename="../directorymenu.cpp" line="126"/>
         <source>Open</source>
         <translation>Otevřít</translation>
     </message>
     <message>
-        <location filename="../directorymenu.cpp" line="129"/>
+        <location filename="../directorymenu.cpp" line="130"/>
         <source>Open in terminal</source>
         <translation>Otevřít v terminálu</translation>
     </message>
@@ -50,7 +50,7 @@
         <location filename="../directorymenuconfiguration.ui" line="73"/>
         <location filename="../directorymenuconfiguration.cpp" line="112"/>
         <source>Choose Default Terminal</source>
-        <translation>Zvolte výchozí terminál</translation>
+        <translation>Zvolit výchozí terminál</translation>
     </message>
     <message>
         <location filename="../directorymenuconfiguration.cpp" line="96"/>
@@ -75,7 +75,7 @@
     <message>
         <location filename="../directorymenuconfiguration.cpp" line="135"/>
         <source>An error occurred while loading the icon.</source>
-        <translation>Při nahrávání ikony se vyskytla chyba.</translation>
+        <translation>Při načítání ikony se vyskytla chyba.</translation>
     </message>
 </context>
 </TS>

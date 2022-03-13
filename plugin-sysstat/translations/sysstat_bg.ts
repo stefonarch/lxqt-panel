@@ -53,7 +53,7 @@
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="97"/>
         <source>Ot&amp;her</source>
-        <translation>Ot&amp;her</translation>
+        <translation>&amp;Други</translation>
     </message>
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="107"/>
@@ -63,7 +63,7 @@
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="124"/>
         <source>S&amp;ystem</source>
-        <translation>S&amp;ystem</translation>
+        <translation>&amp;Система</translation>
     </message>
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="134"/>
@@ -93,7 +93,7 @@
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="222"/>
         <source>&amp;Buffers</source>
-        <translation>&amp;Buffers</translation>
+        <translation>&amp;Буфери</translation>
     </message>
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="249"/>
@@ -361,7 +361,7 @@
     <message>
         <location filename="../lxqtsysstatconfiguration.cpp" line="79"/>
         <source>memory</source>
-        <translation>memory</translation>
+        <translation>памет</translation>
     </message>
     <message>
         <location filename="../lxqtsysstatconfiguration.cpp" line="80"/>
@@ -372,34 +372,34 @@
 <context>
     <name>LXQtSysStatContent</name>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="392"/>
+        <location filename="../lxqtsysstat.cpp" line="395"/>
         <source>system: %1%&lt;br&gt;user: %2%&lt;br&gt;nice: %3%&lt;br&gt;other: %4%&lt;br&gt;freq: %5%</source>
         <comment>CPU tooltip information</comment>
         <translation>system: %1%&lt;br&gt;user: %2%&lt;br&gt;nice: %3%&lt;br&gt;other: %4%&lt;br&gt;freq: %5%</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="441"/>
+        <location filename="../lxqtsysstat.cpp" line="444"/>
         <source>system: %1%&lt;br&gt;user: %2%&lt;br&gt;nice: %3%&lt;br&gt;other: %4%&lt;br&gt;freq: n/a</source>
         <comment>CPU tooltip information</comment>
         <translation>system: %1%&lt;br&gt;user: %2%&lt;br&gt;nice: %3%&lt;br&gt;other: %4%&lt;br&gt;freq: n/a</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="483"/>
+        <location filename="../lxqtsysstat.cpp" line="486"/>
         <source>apps: %1%&lt;br&gt;buffers: %2%&lt;br&gt;cached: %3%</source>
         <comment>Memory tooltip information</comment>
         <translation>apps: %1%&lt;br&gt;buffers: %2%&lt;br&gt;cached: %3%</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="517"/>
+        <location filename="../lxqtsysstat.cpp" line="520"/>
         <source>used: %1%</source>
         <comment>Swap tooltip information</comment>
-        <translation>used: %1%</translation>
+        <translation>използвано: %1%</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="547"/>
+        <location filename="../lxqtsysstat.cpp" line="550"/>
         <source>min: %1%&lt;br&gt;max: %2%</source>
         <comment>Network tooltip information</comment>
-        <translation>min: %1%&lt;br&gt;max: %2%</translation>
+        <translation>мин: %1%&lt;br&gt;макс: %2%</translation>
     </message>
 </context>
 </TS>

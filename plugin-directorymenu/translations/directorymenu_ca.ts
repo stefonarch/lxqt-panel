@@ -4,14 +4,14 @@
 <context>
     <name>DirectoryMenu</name>
     <message>
-        <location filename="../directorymenu.cpp" line="125"/>
+        <location filename="../directorymenu.cpp" line="126"/>
         <source>Open</source>
         <translation>Obre</translation>
     </message>
     <message>
-        <location filename="../directorymenu.cpp" line="129"/>
+        <location filename="../directorymenu.cpp" line="130"/>
         <source>Open in terminal</source>
-        <translation type="unfinished"></translation>
+        <translation>Obre al terminal</translation>
     </message>
 </context>
 <context>
@@ -44,13 +44,13 @@
     <message>
         <location filename="../directorymenuconfiguration.ui" line="66"/>
         <source>Terminal</source>
-        <translation type="unfinished"></translation>
+        <translation>Terminal</translation>
     </message>
     <message>
         <location filename="../directorymenuconfiguration.ui" line="73"/>
         <location filename="../directorymenuconfiguration.cpp" line="112"/>
         <source>Choose Default Terminal</source>
-        <translation type="unfinished"></translation>
+        <translation>Trieu el terminal predeterminat</translation>
     </message>
     <message>
         <location filename="../directorymenuconfiguration.cpp" line="96"/>

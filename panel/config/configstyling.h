@@ -4,9 +4,9 @@
  * LXQt - a lightweight, Qt based, desktop toolset
  * https://lxqt.org
  *
- * Copyright: 2019 LXQt team
+ * Copyright: 2010-2011 Razor team
  * Authors:
- *   John Lindgren <john@jlindgren.net>
+ *   Marat "Morion" Talipov <morion.self@gmail.com>
  *
  * This program or library is free software; you can redistribute it
  * and/or modify it under the terms of the GNU Lesser General Public
@@ -17,7 +17,7 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * Lesser General Public License for more details.
-
+ *
  * You should have received a copy of the GNU Lesser General
  * Public License along with this library; if not, write to the
  * Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
@@ -25,29 +25,57 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
-#ifndef LXQTTRAYCONFIGURATION_H
-#define LXQTTRAYCONFIGURATION_H
+#ifndef CONFIGSTYLING_H
+#define CONFIGSTYLING_H
 
-#include "../panel/lxqtpanelpluginconfigdialog.h"
-#include <memory>
+#include "../lxqtpanel.h"
+#include <QSettings>
+#include <QTimer>
+#include <LXQt/ConfigDialog>
+
+class LXQtPanel;
 
 namespace Ui {
-    class LXQtTrayConfiguration;
+    class ConfigStyling;
 }
 
-class LXQtTrayConfiguration : public LXQtPanelPluginConfigDialog
+class ConfigStyling : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit LXQtTrayConfiguration(PluginSettings *settings, QWidget *parent = nullptr);
-    ~LXQtTrayConfiguration();
+    explicit ConfigStyling(LXQtPanel *panel, QWidget *parent = nullptr);
+    ~ConfigStyling();
+
+    void updateIconThemeSettings();
+
+signals:
+    void changed();
+
+public slots:
+    void reset();
 
 private slots:
-    void loadSettings() override;
+    void editChanged();
+    void pickFontColor();
+    void pickBackgroundColor();
+    void pickBackgroundImage();
 
 private:
-    std::unique_ptr<Ui::LXQtTrayConfiguration> ui;
+    Ui::ConfigStyling *ui;
+    LXQtPanel *mPanel;
+
+    void fillComboBox_icon();
+
+    // new values
+    QColor mFontColor;
+    QColor mBackgroundColor;
+
+    // old values for reset
+    QColor mOldFontColor;
+    QColor mOldBackgroundColor;
+    QString mOldBackgroundImage;
+    int mOldOpacity;
 };
 
-#endif // LXQTTRAYCONFIGURATION_H
+#endif

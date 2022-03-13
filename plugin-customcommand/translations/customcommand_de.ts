@@ -2,6 +2,14 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="de">
 <context>
+    <name>LXQtCustomCommand</name>
+    <message>
+        <location filename="../lxqtcustomcommand.cpp" line="173"/>
+        <source>Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>LXQtCustomCommandConfiguration</name>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="14"/>
@@ -76,7 +84,7 @@
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="150"/>
         <source>echo Configure...</source>
-        <translation type="unfinished"></translation>
+        <translation>echo Konfigurieren...</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="153"/>
@@ -84,41 +92,51 @@
         <location filename="../lxqtcustomcommandconfiguration.ui" line="278"/>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="285"/>
         <source>Command to run</source>
-        <translation type="unfinished"></translation>
+        <translation>Auszuführender Befehl</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="160"/>
         <source>Max Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Max. Breite</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="212"/>
         <source>Repeat command after:</source>
-        <translation type="unfinished"></translation>
+        <translation>Befehl wiederholen nach:</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="228"/>
         <source> second(s)</source>
-        <translation type="unfinished"></translation>
+        <translation> Sekunde(n)</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="255"/>
         <source>Mouse Commands</source>
-        <translation type="unfinished"></translation>
+        <translation>Mausbefehle</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="261"/>
         <source>Click</source>
-        <translation type="unfinished"></translation>
+        <translation>Klick</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="292"/>
         <source>Wheel Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Rad nach oben</translation>
     </message>
     <message>
         <location filename="../lxqtcustomcommandconfiguration.ui" line="302"/>
         <source>Wheel Down</source>
+        <translation>Rad nach unten</translation>
+    </message>
+    <message>
+        <location filename="../lxqtcustomcommandconfiguration.cpp" line="157"/>
+        <source>Select Icon File</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../lxqtcustomcommandconfiguration.cpp" line="157"/>
+        <source>Images (*.png *.svg *.xpm *.jpg)</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

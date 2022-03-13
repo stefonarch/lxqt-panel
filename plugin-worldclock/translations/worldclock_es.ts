@@ -118,7 +118,7 @@
     <message>
         <location filename="../lxqtworldclockconfiguration.ui" line="201"/>
         <location filename="../lxqtworldclockconfiguration.ui" line="436"/>
-        <location filename="../lxqtworldclockconfiguration.cpp" line="586"/>
+        <location filename="../lxqtworldclockconfiguration.cpp" line="585"/>
         <source>Custom name</source>
         <translation>Nombre personalizado</translation>
     </message>
@@ -230,20 +230,20 @@
     <message>
         <location filename="../lxqtworldclockconfiguration.ui" line="535"/>
         <source>Show &amp;week numbers in popup calendar</source>
-        <translation type="unfinished">Mostrar los números de las semanas en la ventana emergente del calendario</translation>
+        <translation>Mostrar los números de las &amp;semanas en la ventana emergente del calendario</translation>
     </message>
     <message>
         <location filename="../lxqtworldclockconfiguration.ui" line="545"/>
         <source>S&amp;how tooltip</source>
-        <translation type="unfinished">Mostrar descripciones emergentes</translation>
+        <translation>&amp;Mostrar descripciones emergentes</translation>
     </message>
     <message>
-        <location filename="../lxqtworldclockconfiguration.cpp" line="107"/>
+        <location filename="../lxqtworldclockconfiguration.cpp" line="106"/>
         <source>&apos;&lt;b&gt;&apos;HH:mm:ss&apos;&lt;/b&gt;&lt;br/&gt;&lt;font size=&quot;-2&quot;&gt;&apos;ddd, d MMM yyyy&apos;&lt;br/&gt;&apos;TT&apos;&lt;/font&gt;&apos;</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../lxqtworldclockconfiguration.cpp" line="585"/>
+        <location filename="../lxqtworldclockconfiguration.cpp" line="584"/>
         <source>Input custom time zone name</source>
         <translation>Introduzca el nombre personalizado de la zona horaria</translation>
     </message>

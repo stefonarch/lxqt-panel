@@ -25,8 +25,8 @@
  *
  * END_COMMON_COPYRIGHT_HEADER */
 
-#ifndef CONFIGPANELWIDGET_H
-#define CONFIGPANELWIDGET_H
+#ifndef CONFIGPLACEMENT_H
+#define CONFIGPLACEMENT_H
 
 #include "../lxqtpanel.h"
 #include <QSettings>
@@ -36,20 +36,19 @@
 class LXQtPanel;
 
 namespace Ui {
-    class ConfigPanelWidget;
+    class ConfigPlacement;
 }
 
-class ConfigPanelWidget : public QWidget
+class ConfigPlacement : public QWidget
 {
     Q_OBJECT
 
 public:
-    explicit ConfigPanelWidget(LXQtPanel *panel, QWidget *parent = nullptr);
-    ~ConfigPanelWidget();
+    explicit ConfigPlacement(LXQtPanel *panel, QWidget *parent = nullptr);
+    ~ConfigPlacement();
 
     int screenNum() const { return mScreenNum; }
     ILXQtPanel::Position position() const { return mPosition; }
-    void updateIconThemeSettings();
 
 signals:
     void changed();
@@ -61,12 +60,9 @@ private slots:
     void editChanged();
     void widthTypeChanged();
     void positionChanged();
-    void pickFontColor();
-    void pickBackgroundColor();
-    void pickBackgroundImage();
 
 private:
-    Ui::ConfigPanelWidget *ui;
+    Ui::ConfigPlacement *ui;
     LXQtPanel *mPanel;
     int mScreenNum;
     ILXQtPanel::Position mPosition;
@@ -74,13 +70,8 @@ private:
     void addPosition(const QString& name, int screen, LXQtPanel::Position position);
     void fillComboBox_position();
     void fillComboBox_alignment();
-    void fillComboBox_icon();
     int indexForPosition(int screen, ILXQtPanel::Position position);
     int getMaxLength();
-
-    // new values
-    QColor mFontColor;
-    QColor mBackgroundColor;
 
     // old values for reset
     int mOldPanelSize;
@@ -96,10 +87,6 @@ private:
     int mOldAnimation;
     int mOldShowDelay;
     int mOldScreenNum;
-    QColor mOldFontColor;
-    QColor mOldBackgroundColor;
-    QString mOldBackgroundImage;
-    int mOldOpacity;
     bool mOldReserveSpace;
 };
 

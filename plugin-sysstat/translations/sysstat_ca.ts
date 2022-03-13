@@ -48,7 +48,7 @@
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="80"/>
         <source>&amp;Nice</source>
-        <translation>&amp;Nice</translation>
+        <translation>&amp;Prioritat</translation>
     </message>
     <message>
         <location filename="../lxqtsysstatcolours.ui" line="97"/>
@@ -146,7 +146,7 @@
     <message>
         <location filename="../lxqtsysstatconfiguration.ui" line="80"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Minimal width if the panel is horizontal.&lt;/p&gt;&lt;p&gt;Minimal height if the panel is vertical.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Amplada mínima si el panell és horitzontal.&lt;/p&gt;&lt;p&gt;Alçada mínima si el panell és vertical.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../lxqtsysstatconfiguration.ui" line="83"/>
@@ -176,7 +176,7 @@
     <message>
         <location filename="../lxqtsysstatconfiguration.ui" line="222"/>
         <source>XXX KBs</source>
-        <translation>XXX KBs</translation>
+        <translation>XXX KB/s</translation>
     </message>
     <message>
         <location filename="../lxqtsysstatconfiguration.ui" line="241"/>
@@ -372,31 +372,31 @@
 <context>
     <name>LXQtSysStatContent</name>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="392"/>
+        <location filename="../lxqtsysstat.cpp" line="395"/>
         <source>system: %1%&lt;br&gt;user: %2%&lt;br&gt;nice: %3%&lt;br&gt;other: %4%&lt;br&gt;freq: %5%</source>
         <comment>CPU tooltip information</comment>
         <translation>sistema: %1%&lt;br&gt;usuari: %2%&lt;br&gt;nice: %3%&lt;br&gt;altres: %4%&lt;br&gt;freq.: %5%</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="441"/>
+        <location filename="../lxqtsysstat.cpp" line="444"/>
         <source>system: %1%&lt;br&gt;user: %2%&lt;br&gt;nice: %3%&lt;br&gt;other: %4%&lt;br&gt;freq: n/a</source>
         <comment>CPU tooltip information</comment>
         <translation>sistema: %1%&lt;br&gt;usuari: %2%&lt;br&gt;nice: %3%&lt;br&gt;altres: %4%&lt;br&gt;freq: n/a</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="483"/>
+        <location filename="../lxqtsysstat.cpp" line="486"/>
         <source>apps: %1%&lt;br&gt;buffers: %2%&lt;br&gt;cached: %3%</source>
         <comment>Memory tooltip information</comment>
         <translation>apps: %1%&lt;br&gt;búfers: %2%&lt;br&gt;cau: %3%</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="517"/>
+        <location filename="../lxqtsysstat.cpp" line="520"/>
         <source>used: %1%</source>
         <comment>Swap tooltip information</comment>
         <translation>utilitzat: %1%</translation>
     </message>
     <message>
-        <location filename="../lxqtsysstat.cpp" line="547"/>
+        <location filename="../lxqtsysstat.cpp" line="550"/>
         <source>min: %1%&lt;br&gt;max: %2%</source>
         <comment>Network tooltip information</comment>
         <translation>mín.: %1%&lt;br&gt;màx.: %2%</translation>
