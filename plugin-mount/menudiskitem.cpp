@@ -80,9 +80,9 @@ MenuDiskItem::MenuDiskItem(Solid::Device device, Popup *popup):
 
 MenuDiskItem::~MenuDiskItem() = default;
 
-void MenuDiskItem::setMountStatus(bool mounted)
+void MenuDiskItem::setMountStatus()
 {
-    mEjectButton->setEnabled(mounted);
+    mEjectButton->setEnabled(mDevice.as<Solid::StorageAccess>()->isAccessible() || !opticalParent().udi().isEmpty());
 }
 
 void MenuDiskItem::updateMountStatus()
@@ -96,7 +96,7 @@ void MenuDiskItem::updateMountStatus()
         mDiskButton->setIcon(icon);
         mDiskButton->setText(mDevice.description());
 
-        setMountStatus(mDevice.as<Solid::StorageAccess>()->isAccessible() || !opticalParent().udi().isEmpty());
+        setMountStatus();
     }
     else
         emit invalid(mDevice.udi());
