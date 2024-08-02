@@ -1,0 +1,38 @@
+diff -ruNp lxqt-panel-orig/panel/backends/wayland/wlroots/lxqttaskbarwlrwindowmanagment.cpp lxqt-panel-wlroots-taskbar/panel/backends/wayland/wlroots/lxqttaskbarwlrwindowmanagment.cpp
+--- lxqt-panel-orig/panel/backends/wayland/wlroots/lxqttaskbarwlrwindowmanagment.cpp	2024-04-24 00:11:20.000000000 +0330
++++ lxqt-panel-wlroots-taskbar/panel/backends/wayland/wlroots/lxqttaskbarwlrwindowmanagment.cpp	2024-08-02 01:27:45.700975937 +0330
+@@ -347,6 +347,7 @@ void LXQtTaskbarWlrootsWindow::zwlr_fore
+         case ZWLR_FOREIGN_TOPLEVEL_HANDLE_V1_STATE_MINIMIZED: {
+             m_pendingState.minimized        = true;
+             m_pendingState.minimizedChanged = true;
++            m_pendingState.activated        = false;
+             break;
+         }
+ 
+@@ -377,10 +378,17 @@ void LXQtTaskbarWlrootsWindow::zwlr_fore
+      * 4. Finally, cleanr the m_pendingState.<variable>Changed flags.
+      */
+ 
++    bool checkActivation;
++
+     // (1) title, if it changed
+     if (m_pendingState.titleChanged)
+     {
+         windowState.title = m_pendingState.title;
++        checkActivation = m_pendingState.activatedChanged;
++    }
++    else
++    {
++        checkActivation = true;
+     }
+ 
+     // (2) appId, if it changed
+@@ -422,7 +430,7 @@ void LXQtTaskbarWlrootsWindow::zwlr_fore
+         m_pendingState.minimizedChanged = true;
+     }
+ 
+-    if (m_pendingState.activated != windowState.activated)
++    if (checkActivation && m_pendingState.activated != windowState.activated)
+     {
+         windowState.activated           = m_pendingState.activated;
+         m_pendingState.activatedChanged = true;
